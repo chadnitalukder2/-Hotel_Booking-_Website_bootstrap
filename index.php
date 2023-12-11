@@ -7,6 +7,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Merienda:wght@400;700&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
 
 </head>
 <style>
@@ -28,7 +29,7 @@
       -moz-appearance: textfield;
       }
 </style>
-<body>
+<body class="bg-light">
   <!-- =============nav start===================== -->
 <nav class="navbar navbar-expand-lg navbar-light bg-white px-lg-3 py-lg-2 shadow-sm sticky-top">
   <div class="container-fluid">
@@ -166,6 +167,48 @@
   </div>
 </div>
 <!-- =============modal Register end===================== -->
+<!-- =============Swiper start===================== -->
+<div class="container-fluid px-lg-4 mt-4">
+
+   <div class="swiper swiper-container">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <img src="images/carousel/1.png" class="w-100 d-block"/>
+      </div>
+      <div class="swiper-slide">
+        <img src="images/carousel/2.png" class="w-100 d-block"/>
+      </div>
+      <div class="swiper-slide">
+        <img src="images/carousel/3.png" class="w-100 d-block"/>
+      </div>
+      <div class="swiper-slide">
+        <img src="images/carousel/4.png" class="w-100 d-block"/>
+      </div>
+      <div class="swiper-slide">
+        <img src="images/carousel/5.png" class="w-100 d-block"/>
+      </div>
+      <div class="swiper-slide">
+        <img src="images/carousel/6.png" class="w-100 d-block"/>
+      </div>
+    </div>
+    
+  </div>
+</div>
+<!-- =============Swiper end===================== -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+ <!-- Swiper JS -->
+ <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<!-- Initialize Swiper -->
+<script>
+  var swiper = new Swiper(".swiper-container", {
+    spaceBetween: 30,
+    effect: "fade",
+    loop: true,
+    autoplay:{
+      delay:3500,
+      disableOnInteraction: false,
+    }
+  });
+</script>
 </body>
 </html>
