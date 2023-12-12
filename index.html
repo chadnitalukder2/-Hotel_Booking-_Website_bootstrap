@@ -20,13 +20,13 @@
      /* Chrome, Safari, Edge, Opera */
         input::-webkit-outer-spin-button,
         input::-webkit-inner-spin-button {
-        -webkit-appearance: none;
+          appearance: none;
         margin: 0;
         }
 
     /* Firefox */
       input[type=number] {
-      -moz-appearance: textfield;
+        appearance: none;
       }
   .custom-bg{
     background-color: #2ec1ac;
@@ -190,22 +190,22 @@
    <div class="swiper swiper-container">
     <div class="swiper-wrapper">
       <div class="swiper-slide">
-        <img src="./images/carousel/1.png" class="w-100 d-block"/>
+        <img src="./images/carousel/1.png" class="w-100 d-block" alt="">
       </div>
       <div class="swiper-slide">
-        <img src="./images/carousel/2.png" class="w-100 d-block"/>
+        <img src="./images/carousel/2.png" class="w-100 d-block" alt=""/>
       </div>
       <div class="swiper-slide">
-        <img src="./images/carousel/3.png" class="w-100 d-block"/>
+        <img src="./images/carousel/3.png" class="w-100 d-block" alt=""/>
       </div>
       <div class="swiper-slide">
-        <img src="./images/carousel/4.png" class="w-100 d-block"/>
+        <img src="./images/carousel/4.png" class="w-100 d-block" alt=""/>
       </div>
       <div class="swiper-slide">
-        <img src="./images/carousel/5.png" class="w-100 d-block"/>
+        <img src="./images/carousel/5.png" class="w-100 d-block" alt=""/>
       </div>
       <div class="swiper-slide">
-        <img src="./images/carousel/6.png" class="w-100 d-block"/>
+        <img src="./images/carousel/6.png" class="w-100 d-block" alt=""/>
       </div>
     </div>
     
@@ -220,15 +220,17 @@
       <form>
         <div class="row align-items-end">
           <div class="col-lg-3 mb-3">
-              <label  class="form-label" style="font-weight: 500;">Check-in</label>
-              <input type="date" class="form-control shadow-none" >
+              <label  class="form-label" style="font-weight: 500;" >Check-in</label>
+              <input type="date" class="form-control shadow-none">
+         
+            
           </div>
           <div class="col-lg-3 mb-3">
-              <label  class="form-label" style="font-weight: 500;">Check-out</label>
-              <input type="date" class="form-control shadow-none" >
+              <label  class="form-label" style="font-weight: 500;" >Check-out</label>
+              <input type="date" class="form-control shadow-none" />
           </div>
           <div class="col-lg-3 mb-3">
-              <label  class="form-label" style="font-weight: 500;">Adult</label>
+              <label  class="form-label"  style="font-weight: 500;">Adult</label>
               <select class="form-select shadow-none">
                 <option selected>Open this select menu</option>
                 <option value="1">One</option>
