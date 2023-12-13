@@ -58,7 +58,7 @@
         <input type="password" class="form-control shadow-none" >
       </div>
       <div class="d-flex align-items-center justify-content-between mb-2">
-      <button type="submit" class="btn btn-dark shadow-none">LOGIN</button>
+          <button type="submit" class="btn btn-dark shadow-none">LOGIN</button>
      <a href="javascript: void(0)" class="text-secondary text-decoration-none">Forgot Password?</a>
     </div>
   </div>
