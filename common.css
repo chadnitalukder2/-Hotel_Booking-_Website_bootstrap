@@ -28,3 +28,9 @@ border: 1px solid var(--teal);
 background-color: var(--teal_hover);
 border: 1px solid var(--teal_hover);
 }
+
+.h-line{
+  width: 150px;
+  margin: 0 auto;
+  height: 1.7px;
+}
