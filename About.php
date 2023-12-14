@@ -26,7 +26,7 @@
           sea lorem, aliquyam tempor est accusam ipsum sadipscing.
     </p>
 </div>
-
+<!-- ============== -->
 <div class="container">
     <div class="row justify-content-between align-items-center">
         <div class="col-lg-6 col-md-5 mb-4 order-lg-1 order-md-1 order-2">
@@ -43,7 +43,7 @@
         </div>
     </div>
 </div>
-
+<!-- ============== -->
 <div class="container mt-5">
     <div class="row">
         <div class="col-lg-3 col-md-6 mb-4 px-4">
@@ -74,7 +74,7 @@
 
     </div>
 </div>
-
+<!-- ============== -->
 <h3 class="my-5 fw-bold h-font text-center">MANAGEMENT TEAM</h3>
 <div class="container px-4">
      <!-- Swiper -->
